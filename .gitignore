@@ -9,6 +9,8 @@
 .history
 .svn/
 migrate_working_dir/
+/firebase.json
+
 
 # IntelliJ related
 *.iml
@@ -31,6 +33,38 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Flutter/Dart specific
+*.iml
+lib/app/data/utils/firebase_options.dart
+.idea/
+.vscode/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+/build/
+ios/Pods/
+ios/Podfile.lock
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/GeneratedPluginRegistrant.*
+android/.gradle/
+android/.idea/
+android/build/
+android/key.properties
+android/local.properties
+android/gradle/
+android/app/debug.keystore
+android/app/key.properties
+.android/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.xcconfig
+ios/Flutter/ephemeral/Profile.entitlements
+ios/Flutter/ephemeral/Release.entitlements
+ios/Flutter/ephemeral/flutter_export_environment.sh
+ios/Flutter/flutter_export_environment.sh
+
 # Symbolication related
 app.*.symbols
 
@@ -41,3 +75,4 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+android/app/google-services.json
